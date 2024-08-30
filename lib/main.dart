@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:traveling/screens/pricePage.dart';
+import 'package:traveling/screens/startPage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -53,13 +53,13 @@ class MyApp extends StatelessWidget {
                   fontSize: 20,
                   color: Color(0xff78CADE)
                 ),
-                titleLarge: TextStyle(
+                titleLarge: const TextStyle(
                   color: Colors.white,
                   fontSize: 26,
                   fontWeight: FontWeight.bold
                 )
               )),
-      home:  PricePage(),
+      home:  Startpage(),
     );
   }
 }

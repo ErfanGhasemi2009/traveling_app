@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:traveling/data/data.dart';
 
+// ignore: must_be_immutable
 class PricePage extends StatefulWidget {
   PricePage({super.key});
   int hotelIndex = 0;
