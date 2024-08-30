@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
           // This is the theme of your application.
           //
@@ -37,8 +38,28 @@ class MyApp extends StatelessWidget {
               onBackground: Color(0xff000000)),
           useMaterial3: true,
           textTheme: GoogleFonts.poppinsTextTheme(Theme.of(context).textTheme)
-              .copyWith()),
-      home: const PricePage(),
+              .copyWith(
+                bodyLarge: const TextStyle(
+                  fontSize: 16,
+                  fontWeight:FontWeight.bold
+                ), 
+                bodyMedium: const TextStyle(
+                  fontSize: 14
+                ),
+                bodySmall: const TextStyle(
+                  fontSize: 12
+                ),
+                titleSmall: const TextStyle(
+                  fontSize: 20,
+                  color: Color(0xff78CADE)
+                ),
+                titleLarge: TextStyle(
+                  color: Colors.white,
+                  fontSize: 26,
+                  fontWeight: FontWeight.bold
+                )
+              )),
+      home:  PricePage(),
     );
   }
 }
