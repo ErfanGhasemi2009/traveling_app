@@ -65,6 +65,7 @@ flutter:
     - assets/images/hotel_pic/
     - assets/images/icons/
     - assets/images/views_pic/
+    - assets/images/destination/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

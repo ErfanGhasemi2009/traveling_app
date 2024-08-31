@@ -61,7 +61,7 @@ class _PricePageState extends State<PricePage> {
                           isActive: widget.hotelIndex == index,
                           onTap: () {
                             setState(() {
-                              widget.hotelIndex = index;
+                              widget.hotelIndex = index;                           
                             });
                           },
                         );
@@ -72,12 +72,11 @@ class _PricePageState extends State<PricePage> {
                   left: 48,
                   bottom: 32,
                   child: Container(
-                    padding: EdgeInsets.fromLTRB(16, 8, 16, 8),
+                    padding: EdgeInsets.fromLTRB(32, 8, 32, 8),
                     decoration: BoxDecoration(
-                        color: themeData.colorScheme.onBackground
-                            .withOpacity(0.6),
-                            borderRadius: BorderRadius.circular(24)),
-                            
+                        color:
+                            themeData.colorScheme.onBackground.withOpacity(0.6),
+                        borderRadius: BorderRadius.circular(24)),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
