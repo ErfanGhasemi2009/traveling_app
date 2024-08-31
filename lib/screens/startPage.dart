@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:slider_button/slider_button.dart';
+import 'package:traveling/screens/discoverPage.dart';
 import 'package:traveling/screens/pricePage.dart';
 
 class Startpage extends StatelessWidget {
@@ -60,7 +61,7 @@ class Startpage extends StatelessWidget {
                 shimmer: true,
                 action: () async {
                   return Navigator.pushReplacement(context,
-                      MaterialPageRoute(builder: (context) => PricePage()));
+                      MaterialPageRoute(builder: (context) => Discoverpage()));
                 },
                 backgroundColor: Colors.transparent,
                 label: Row(

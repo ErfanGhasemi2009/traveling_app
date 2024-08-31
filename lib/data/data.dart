@@ -1,6 +1,7 @@
 class HotelData {
   final int id;
   final String name;
+  final String contaryName;
   final String imageFileName;
   final String location;
   final String distance;
@@ -14,6 +15,7 @@ class HotelData {
       required this.name,
       required this.imageFileName,
       required this.location,
+      required this.contaryName,
       required this.distance,
       required this.rating,
       required this.temp,
@@ -50,6 +52,7 @@ class AppDataBase {
           id: 1001,
           name: 'La Silva',
           imageFileName: 'pic1.jpg',
+          contaryName: 'Peru',
           location: 'Peru, South America',
           distance: '7KM',
           rating: '4.8',
@@ -59,6 +62,7 @@ class AppDataBase {
       HotelData(
           id: 1002,
           name: 'La Costa',
+          contaryName: 'Peru',
           imageFileName: 'pic2.jpg',
           location: 'Peru, South America',
           distance: '11KM',
@@ -70,6 +74,7 @@ class AppDataBase {
           id: 1003,
           name: 'Rio De Janero',
           imageFileName: 'pic3.jpg',
+          contaryName: 'Brazil',
           location: 'Brazil, South America',
           distance: '16KM',
           rating: '4.9',
@@ -79,8 +84,9 @@ class AppDataBase {
       HotelData(
           id: 1004,
           name: 'Salvador',
+          contaryName: 'Mexico',
           imageFileName: 'pic4.jpg',
-          location: 'Maxsico, South America',
+          location: 'Mexico, South America',
           distance: '49KM',
           rating: '4.1',
           temp: '45° C',

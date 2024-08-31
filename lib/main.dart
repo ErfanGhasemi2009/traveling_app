@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:traveling/screens/discoverPage.dart';
+import 'package:traveling/screens/startPage.dart';
 
 void main() {
   SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
@@ -59,6 +60,8 @@ class MyApp extends StatelessWidget {
                   fontSize: 20,
                   color: Color(0xff78CADE)
                 ),
+                labelSmall: const TextStyle(fontSize: 15),
+                headlineSmall: const TextStyle(fontSize: 15, fontWeight: FontWeight.w600),
                 titleLarge: const TextStyle(
                   color: Colors.white,
                   fontSize: 26,
@@ -69,7 +72,7 @@ class MyApp extends StatelessWidget {
                   fontWeight: FontWeight.bold
                 )
               )),
-      home:  Discoverpage(),
+      home:  Startpage(),
     );
   }
 }
