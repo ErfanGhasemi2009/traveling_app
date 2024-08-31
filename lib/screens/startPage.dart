@@ -1,8 +1,6 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:slider_button/slider_button.dart';
 import 'package:traveling/screens/discoverPage.dart';
-import 'package:traveling/screens/pricePage.dart';
 
 class Startpage extends StatelessWidget {
   @override

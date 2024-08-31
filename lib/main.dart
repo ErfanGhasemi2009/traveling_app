@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:traveling/screens/discoverPage.dart';
 import 'package:traveling/screens/startPage.dart';
 
 void main() {
